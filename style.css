@@ -1,0 +1,116 @@
+@font-face {
+    font-family: new1;
+    src: url("new1.ttf");
+}
+body{
+    margin: 0;
+    padding:0;
+}
+#mainbody{
+    width:1200px;
+    margin:0 auto;
+    border:0;
+}
+#container,#bg,#showimg{
+    width:1200px;
+}
+#bg{
+    height:800px;
+    background-image: url("img/baby1.png");
+    position: relative;
+}
+
+.buttonstyle{
+    width:280px;
+    height:50px;
+    border:0;
+    background-color: #60daca;
+    display: block;
+    position: absolute;
+    left:60px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+#downloadapp{
+    top:120px;
+}
+#downloaddata{
+    top:180px;
+}
+#downloadapp:hover,#downloaddata:hover{
+    background-color: #22c4c2;
+}
+#bg span{
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: new1;
+}
+
+#introduction{
+    width:1200px;
+    height:300px;
+    background-image: url("img/b1.gif");
+}
+
+#line1 div,#line2 div{
+    float: left;
+    width:240px;
+    height:200px;
+}
+#showimg{
+    background-image: url("img/bg2.gif");
+    width:1200px;
+    height: 674px;
+}
+.cdiv{
+    width:300px;
+    height:674px;
+    float: left;
+    border: 0;
+    margin:0;
+    padding:0;
+}
+.cdivtop{
+    width:180px;
+    height:180px;
+    margin-left:61px;
+    margin-right:60px;
+    margin-top: 160px;
+    border-radius: 90px;
+
+
+}
+.cdivbottom{
+    width:inherit;
+    height:292px;
+}
+.cdivbottom h2{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+    font-family: new1;
+}
+.cdivbottom p{
+    width:200px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    font-family: new1;
+    text-indent: 2.2em;
+}
+.clear{
+    clear: both;
+}
+#footer{
+    width:1200px;
+    height:50px;
+}
+
+.buttom{
+	width:1200px;
+	height:50px;
+	font-family: new1;
+}

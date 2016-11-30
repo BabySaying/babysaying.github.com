@@ -1,43 +1,56 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Babysaying.GitHub.com : ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Babysaying.GitHub.com</title>
-  </head>
-
-  <body>
-    <div id="all" style="height:1200px;width:100%;">
-		<div id="top" style="background:url('img/baby1.png') no-repeat;background-size:100% 100%;height:800px;width:100%">
-			<h1 style="font-family:Arial, Helvetica, sans-serif; font-size:70px; color:#00CCFF">Baby Saying</h1>
-			<br/>
-			<h1 style="font-family:Arial, Helvetica, sans-serif; color:#0099CC"> 应用下载：</h1>
-			<a href="img/BabySaying V1.8.apk"> <img src="img/button.png"/></a>
-			<h1 style="font-family:Arial, Helvetica, sans-serif; color:#0099CC">模拟器程序下载：</h1>
-			<a href="img/BabySaying 模拟数据beta.apk"><img src="img/button.png"/></a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baby Saying</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="mainbody">
+    <div id="container">
+        <div id="bg">
+			<h1 style="color:#00CCCC; font-size:70px; font-family:Arial, Helvetica, sans-serif">BabySaying</h1>
+			<br>
+			<br>
+            <a href="apk/BabySaying V1.8.apk"><button id="downloadapp" class="buttonstyle"><span>下载App</span></button></a>
+            <a href="apk/BabySaying 模拟数据beta.apk"><button id="downloaddata" class="buttonstyle"><span>下载模拟数据</span></button></a>
+        </div>
+        <div id="introduction"></div>
+        <div id="showimg">
+            <div class="cdiv">
+                <div id="1" class="cdivtop"></div>
+                <div class="cdivbottom">
+                    <h2>哭声识别</h2>
+                    <p>采集婴儿哭声数据，上传云端比对，返回家长婴儿啼哭的原因及处理办法。</p>
+                </div>
+            </div>
+            <div class="cdiv">
+                <div id="2" class="cdivtop"></div>
+                <div class="cdivbottom">
+                    <h2>生理数据</h2>
+                    <p>通过蓝牙设备采集心率体温数据，发送到手机，手机实时监控数据变化。如果有异常发出报警。</p>
+                </div>
+            </div>
+            <div class="cdiv">
+                <div id="3" class="cdivtop"></div>
+                <div class="cdivbottom">
+                    <h2>睡姿监测</h2>
+                    <p>通过蓝牙设备采集翻身数据，把数据发送到手机上，手机监测婴儿的翻身数据，当俯卧的时候发出报警。</p>
+                </div>
+            </div>
+            <div class="cdiv">
+                <div id="4" class="cdivtop"></div>
+                <div class="cdivbottom">
+                    <h2>踢被报警</h2>
+                    <p>当宝宝睡着了，可以打开踢被报警开关，当婴儿踢被的时候，会发出报警，通知家长。</p>
+                </div>
+            </div>
+        </div>
+		<div class="buttom" style="background-color:#00CCCC">
+			<h1 align="center" style="color:#ffffff; font-size:23px;"></h1>
 		</div>
-		<div id="middle" style=" background-color:#ffffFF;height:200px;width:100%;">
-			<img id = "pic1" src="img/1.jpg" width="20%" height="200px" style="float:left"/>
-			<img id = "pic2" src="img/2.jpg" width="20%" height="200px" style="float:left"/>
-			<img id = "pic3" src="img/3.jpg" width="20%" height="200px" style="float:left"/>
-			<img id = "pic4" src="img/4.jpg" width="20%" height="200px" style="float:left"/>
-			<img id = "pic5" src="img/5.jpg" width="20%" height="200px" style="float:left"/>
-			
-			
-		</div>
-		<div id="buttom" style=" background-color:#3399FF;height:200px;width:100%">
-			<img id = "pic1" src="img/6.jpg" width="20%" height="200px" style="float:left"/>
-			<img id = "pic2" src="img/7.jpg" width="20%" height="200px" style="float:left"/>
-			<img id = "pic3" src="img/8.jpg" width="20%" height="200px" style="float:left"/>
-			<img id = "pic4" src="img/9.jpg" width="20%" height="200px" style="float:left"/>
-			<img id = "pic5" src="img/10.jpg" width="20%" height="200px" style="float:left"/>
-		</div>
-	</div>
-
-  </body>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
 </html>
